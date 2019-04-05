@@ -105,3 +105,25 @@ body{
     text-align: center;
     margin-top: 28px; 
 }
+
+.products-section{
+    width: 1440px;
+    height:200px;
+    margin: 0 auto;
+}
+
+.product{
+    float:left;
+    width:25%;
+    height:200px
+}
+
+.product img{
+    padding-top: 0.5%;
+    padding-right:.5%; 
+    width: 100%;
+}
+
+.product:last-child img{
+    padding-right: 0;
+}
